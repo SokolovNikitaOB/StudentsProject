@@ -1,0 +1,116 @@
+body{
+  margin: 0;
+  min-width: 1000px;
+  background-color: #F2F2F2;
+}
+
+h2{
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 30px;
+  margin: 20px 0 20px 20px;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+    header .container{
+      background-color: #FFFFFF;
+      font-size: 30px;
+      font-family: Arial;
+      font-weight: lighter;
+    }
+
+    header .container p{
+      padding: 20px;
+      margin: 0;
+    }
+
+.student-list, .student-form{
+  font-size: 18px;
+  width: 490px;
+  background-color: #FFFFFF;
+}
+
+.student-list{
+  overflow: auto;
+  float: left;
+  max-height: 692px;
+}
+
+    .student{
+      border-bottom: 5px solid #F2F2F2;
+    }
+
+    .student-name-in-list{
+      padding: 20px;
+      border-bottom: 1px solid #F2F2F2;
+    }
+
+    .student-name-in-list a{
+      color: #000;
+      text-decoration: none;
+    }
+
+    .student-name-in-list img{
+      width: 18px;
+      float: right;
+    }
+
+    .student-information-in-list{
+      padding: 20px;
+    }
+
+
+.student-form{
+  float: right;
+  margin-bottom: 20px;
+}
+
+    .student-form form{
+      padding-left: 20px;
+    }
+
+    .student-form label{
+      color: #8993ad;
+    }
+
+    .student-form input{
+        font-size: 16px;
+        width: 426px;
+        height: 40px;
+        border: 1px solid #ebebeb;
+        background-color: #fcfcfc;
+        margin: 20px 0;
+        padding-left: 20px;
+        outline: none;
+    }
+
+    #submit{
+      width: 450px;
+      padding: 20px 0;
+      height: 56px;
+      background-color: #2174fd;
+      color: white;
+      margin-bottom: 20px;
+    }
+
+#delete-all-students{
+     font-size: 16px;
+     border-width: 0;
+     background-color: #2174fd;
+     color: white;
+     width: 490px;
+     padding: 20px 0;
+}
+
+
+
+
+
